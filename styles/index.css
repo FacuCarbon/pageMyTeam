@@ -1,0 +1,165 @@
+@media (min-width: 320px) {
+  .myTeam {
+    padding: 2%;
+  }
+  .myTeam__titleWho {
+    font-size: 20px;
+    margin-bottom: 1%;
+  }
+  .myTeam__paragraphWho {
+    font-size: 17px;
+  }
+
+  .myTeam__containerItem {
+    position: relative;
+  }
+  .myTeam__imageItem {
+    position: relative;
+    display: flex;
+  }
+  .myTeam__image {
+    width: 90%;
+    border-radius: 6px;
+  }
+  .myTeam__role {
+    transform: rotate(90deg);
+    position: absolute;
+    right: 0;
+    top: 36%;
+    left: 41%;
+    height: 10%;
+    width: 100%;
+    font-size: 16px;
+  }
+  .myTeam__nameItem {
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  .myTeam__created {
+    margin: 0;
+    font-weight: bold;
+    color: lightgray;
+    text-align: center;
+  }
+}
+
+@media (min-width: 412px) {
+  .myTeam__containerItems {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .myTeam__containerItem {
+    width: 48%;
+  }
+  .myTeam__containerItem:nth-child(2n + 2) {
+    margin-top: 6%;
+  }
+  .myTeam__image {
+    width: 86%;
+  }
+  .myTeam__role {
+    font-size: 14px;
+    left: 40%;
+  }
+}
+
+@media (min-width: 767px) {
+  .myTeam__title {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  .myTeam__paragraphWho {
+    width: 48%;
+  }
+  .myTeam__containerItems {
+    margin-top: 7%;
+  }
+  .myTeam__role {
+    left: 38%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .myTeam {
+    padding: 2% 10% 2% 10%;
+  }
+  .myTeam__containerTitleFlex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .myTeam__containerTitle {
+    margin-top: 3%;
+    width: 50%;
+  }
+  .myTeam__containerWho {
+    width: 50%;
+  }
+  .myTeam__paragraphWho {
+    width: 75%;
+  }
+  .myTeam__containerItem {
+    width: 30%;
+  }
+  .myTeam__containerItem:nth-child(2n + 2) {
+    margin-top: 0;
+  }
+  .myTeam__containerItem:nth-child(2),
+  .myTeam__containerItem:nth-child(5) {
+    margin-top: 8%;
+  }
+  .myTeam__created {
+    font-size: 17px;
+    font-weight: unset;
+  }
+}
+
+@media (min-width: 1360px) {
+  .myTeam__containerItems {
+    justify-content: space-evenly;
+  }
+  .myTeam__containerItem {
+    width: 26%;
+  }
+  .myTeam__containerTitle {
+    margin-top: 2%;
+  }
+  .myTeam__title {
+    padding-left: 9%;
+    font-size: 2rem;
+  }
+  .myTeam__titleWho {
+    font-size: 16px;
+  }
+  .myTeam__containerWho {
+    padding-left: 14%;
+  }
+  .myTeam__paragraphWho {
+    width: 76%;
+    font-size: 15px;
+  }
+  .myTeam__role {
+    left: 36%;
+    font-size: 11px;
+  }
+  .myTeam__nameItem {
+    font-size: 16px;
+    margin-top: 3%;
+  }
+}
+
+body::-webkit-scrollbar {
+    width: 11px;
+    height: 7px;
+  }
+  body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+  }
+  body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  }
